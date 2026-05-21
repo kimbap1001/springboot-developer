@@ -1,9 +1,9 @@
-package me.shinsunyoung.springbootdeveloper.controller;
+package me.cheonil.springbootdeveloper.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import me.shinsunyoung.springbootdeveloper.domain.Article;
-import me.shinsunyoung.springbootdeveloper.dto.AddArticleRequest;
-import me.shinsunyoung.springbootdeveloper.repository.BlogRepository;
+import me.cheonil.springbootdeveloper.domain.Article;
+import me.cheonil.springbootdeveloper.dto.AddArticleRequest;
+import me.cheonil.springbootdeveloper.repository.BlogRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -21,7 +21,6 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest

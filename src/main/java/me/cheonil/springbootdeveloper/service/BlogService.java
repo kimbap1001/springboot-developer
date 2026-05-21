@@ -1,9 +1,9 @@
-package me.shinsunyoung.springbootdeveloper.service;
+package me.cheonil.springbootdeveloper.service;
 
 import lombok.RequiredArgsConstructor;
-import me.shinsunyoung.springbootdeveloper.domain.Article;
-import me.shinsunyoung.springbootdeveloper.dto.AddArticleRequest;
-import me.shinsunyoung.springbootdeveloper.repository.BlogRepository;
+import me.cheonil.springbootdeveloper.domain.Article;
+import me.cheonil.springbootdeveloper.dto.AddArticleRequest;
+import me.cheonil.springbootdeveloper.repository.BlogRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
