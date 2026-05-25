@@ -56,6 +56,6 @@ src
 ```
 ## 🔮 진행 예정
 
-- [ ] Spring Security + JWT 기반 인증 구현
+- [x] Spring Security + JWT 기반 인증 구현
 - [ ] OAuth2 소셜 로그인
 - [ ] AWS 배포
