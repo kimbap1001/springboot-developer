@@ -14,8 +14,14 @@
 - 블로그 게시글 **CRUD API** 구현 (Create / Read / Update / Delete)
 - Spring Data JPA 기반 Repository 구현
 - DTO 패턴 적용 (요청/응답 분리)
-- MockMvc 기반 **단위 테스트** 작성 (5개 시나리오)
-- Thymeleaf 템플릿 엔진을 활용한 화면 구성
+- **JPA Auditing** 적용 (`createdAt`, `updatedAt` 자동 관리)
+- Thymeleaf 템플릿 엔진을 활용한 화면 구성 (글 목록/상세/작성/수정)
+- **Spring Security + JWT 기반 인증 구현**
+  - 회원가입 / 로그인 API
+  - Access Token + Refresh Token 발급 및 검증
+  - `TokenAuthenticationFilter`로 요청마다 토큰 유효성 검사
+  - BCrypt 비밀번호 암호화
+- MockMvc 기반 **테스트 코드** 작성 (CRUD 5개 + JWT 관련 4개)
 
 ## 💡 핵심 배움
 
@@ -29,6 +35,8 @@ Spring 코드를 읽고 작성하는 데 직접적인 도움이 됐습니다.
 
 - Java 17
 - Spring Boot 3.2
+- Spring Security
+- JWT (jjwt)
 - Spring Data JPA
 - H2 Database
 - Thymeleaf
